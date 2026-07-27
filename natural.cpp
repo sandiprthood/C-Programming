@@ -1,11 +1,15 @@
 #include<iostream>
 using namespace std;
 int main()
+
 {
 int n,i=1;
+
 cin>>n;
 
-for (int i=1; i<=n; i++){
-cout<<i<<"+"<<i<<"="<<2*i<<endl;
+while(i<=n){
+
+cout<<i<<endl;
+i++;
 }
 }
